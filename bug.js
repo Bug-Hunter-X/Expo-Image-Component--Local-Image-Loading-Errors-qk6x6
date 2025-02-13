@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Image` component with a local URI that's not properly formatted.  The URI may be missing the `file://` prefix or contain incorrect path separators.  This can also occur if you are trying to access the file system before Expo's file system is ready, for instance within `App.js` before the `useEffect` hook has loaded any asynchronous data.
